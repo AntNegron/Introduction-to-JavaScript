@@ -19,9 +19,12 @@ Do the following:
 
    HINT: no function required
 */
-const votingAge = 20;
-if (votingAge > 18) {
+const votingAge = 24;
+
+if (votingAge >= 18){
   console.log(true);
+} else {
+  console.log(false);
 }
 
 
@@ -38,6 +41,11 @@ Do the following:
 let firstVar = "killua";
 let secondVar = "teen gohan"
 
+if (secondVar === 'teen gohan'){
+  firstVar = 'Chrollo';
+}
+console.log(firstVar);
+
 
 
 
@@ -51,7 +59,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const year ='1999'
+console.log(Number(year));
 
 
 
@@ -64,9 +73,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a*b;
 }
+console.log(multiply(6, 4));
 
 
 
@@ -80,9 +90,10 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age * 7;
 }
+console.log(dogYears(26));
 
 
 
